@@ -3,7 +3,7 @@ use strict;
 
 =begin
     1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
-    4 9 7 8 3 1 1 7 3 8 0   5  7  6  0  4 
+    4 9 7 8 3 2 1 7 3 8 0   5  7  6  0  4 
 
     On commence par doubler tout les nombres de rang impaires.
 
@@ -54,5 +54,5 @@ package ValidBin;
 1;
 
 
-print ValidBin->luhn_algorithm("4024007146302608");
+print ValidBin->luhn_algorithm("4562215002542344");
 
